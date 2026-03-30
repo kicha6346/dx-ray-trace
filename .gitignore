@@ -29,3 +29,7 @@ temp/
 # Scratch scripts
 refactor.js
 gen-ascii.js
+
+# Private project files
+VIDEO_TRANSCRIPT.txt
+HACKATHON.md
