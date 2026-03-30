@@ -327,6 +327,23 @@
     .code-body .flag { color: var(--green); }
     .code-body .str { color: var(--yellow); }
 
+    .step-desc {
+      font-size: 15px;
+      color: var(--text);
+      margin: 24px 0 12px;
+      padding-left: 4px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .step-desc::before {
+      content: '👉';
+      font-size: 14px;
+    }
+    .section-header + .step-desc {
+      margin-top: 10px;
+    }
+
     /* ── Command Table ── */
     .cmd-grid {
       display: grid;
@@ -461,7 +478,13 @@
 
   <!-- ── Hero ── -->
   <section class="hero">
-    <div class="team-badge">🏆 Team Taurus &nbsp;·&nbsp; Hackathon 2026</div>
+    <div class="badges" style="display: flex; gap: 12px; justify-content: center; margin-bottom: 32px; animation: fadeDown 0.6s ease both; flex-wrap: wrap;">
+      <div class="team-badge" style="margin-bottom: 0; animation: none;">🏆 Team Taurus &nbsp;·&nbsp; Hackathon 2026</div>
+      <a href="https://www.npmjs.com/package/dx-ray-trace" target="_blank" class="team-badge" style="margin-bottom: 0; animation: none; background: rgba(203, 56, 55, 0.1); border-color: rgba(203, 56, 55, 0.3); color: #ff4d6d; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M0 7.334v8h6.666v1.332H12v-1.332h12v-8H0zm6.666 6.664H3.333v-4h3.333v4zm4 1.332H8V8.666h2.666v6.664zm9.334-1.332H17.333v-4h-2.666v4H12v-5.332h8v5.332z"/></svg>
+        Proudly Published on npm
+      </a>
+    </div>
 
     <pre class="ascii-art">
  ██████╗ ██╗  ██╗      ██████╗  █████╗ ██╗   ██╗
@@ -586,43 +609,73 @@
         <span class="section-icon">⚡</span>
         <h2 class="section-title">Installation — <span>Option A</span> (npm global)</h2>
       </div>
+      <p class="step-desc">Install globally in one command</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-npm-1')">Copy</button>
+        </div>
+        <div class="code-body" id="code-npm-1"><span class="cmd">npm install -g dx-ray-trace</span></div>
+      </div>
+
+      <p class="step-desc">Verify installation</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-npm-2')">Copy</button>
+        </div>
+        <div class="code-body" id="code-npm-2"><span class="cmd">dx --version</span></div>
+      </div>
+
+      <p class="step-desc">Launch the interactive menu</p>
       <div class="code-block">
         <div class="code-header">
           <span class="code-label">Terminal</span>
-          <button class="copy-btn" onclick="copyCode(this, 'code-npm')">Copy</button>
+          <button class="copy-btn" onclick="copyCode(this, 'code-npm-3')">Copy</button>
         </div>
-        <div class="code-body" id="code-npm"><span class="comment"># Install globally in one command</span>
-<span class="cmd">npm install -g dx-ray-trace</span>
-
-<span class="comment"># Verify installation</span>
-<span class="cmd">dx --version</span>
-
-<span class="comment"># Launch the interactive menu</span>
-<span class="cmd">dx</span></div>
+        <div class="code-body" id="code-npm-3"><span class="cmd">dx</span></div>
       </div>
 
       <div class="section-header" style="margin-top:40px;">
         <span class="section-icon">🔧</span>
         <h2 class="section-title">Installation — <span>Option B</span> (from source)</h2>
       </div>
+      <p class="step-desc">Clone the repository</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-src-1')">Copy</button>
+        </div>
+        <div class="code-body" id="code-src-1"><span class="cmd">git clone</span> <span class="str">https://github.com/kicha6346/dx-ray-trace.git</span>
+<span class="cmd">cd</span> dx-ray-trace</div>
+      </div>
+
+      <p class="step-desc">Install dependencies and build</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-src-2')">Copy</button>
+        </div>
+        <div class="code-body" id="code-src-2"><span class="cmd">npm install</span>
+<span class="cmd">npm run build</span></div>
+      </div>
+
+      <p class="step-desc">Link globally so 'dx' command works everywhere</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-src-3')">Copy</button>
+        </div>
+        <div class="code-body" id="code-src-3"><span class="cmd">npm link</span></div>
+      </div>
+
+      <p class="step-desc">Done! Now run</p>
       <div class="code-block">
         <div class="code-header">
           <span class="code-label">Terminal</span>
-          <button class="copy-btn" onclick="copyCode(this, 'code-source')">Copy</button>
+          <button class="copy-btn" onclick="copyCode(this, 'code-src-4')">Copy</button>
         </div>
-        <div class="code-body" id="code-source"><span class="comment"># Clone the repository</span>
-<span class="cmd">git clone</span> <span class="str">https://github.com/kicha6346/dx-ray-trace.git</span>
-<span class="cmd">cd</span> dx-ray-trace
-
-<span class="comment"># Install dependencies and build</span>
-<span class="cmd">npm install</span>
-<span class="cmd">npm run build</span>
-
-<span class="comment"># Link globally so 'dx' command works everywhere</span>
-<span class="cmd">npm link</span>
-
-<span class="comment"># Done! Now run</span>
-<span class="cmd">dx</span></div>
+        <div class="code-body" id="code-src-4"><span class="cmd">dx</span></div>
       </div>
     </section>
 
@@ -634,25 +687,49 @@
         <span class="section-icon">🚀</span>
         <h2 class="section-title">Quick Start</h2>
       </div>
-      <div class="code-block">
+      <p class="step-desc">Navigate to the example project (included in the repo)</p>
+      <div class="code-block" style="margin-bottom: 24px;">
         <div class="code-header">
           <span class="code-label">Try the included demo project</span>
-          <button class="copy-btn" onclick="copyCode(this, 'code-demo')">Copy</button>
+          <button class="copy-btn" onclick="copyCode(this, 'code-demo-1')">Copy</button>
         </div>
-        <div class="code-body" id="code-demo"><span class="comment"># Navigate to the example project (included in the repo)</span>
-<span class="cmd">cd</span> examples/sample-project
+        <div class="code-body" id="code-demo-1"><span class="cmd">cd</span> examples/sample-project</div>
+      </div>
 
-<span class="comment"># Generate a spec from the current environment</span>
-<span class="cmd">dx init</span>
+      <p class="step-desc">Generate a spec from the current environment</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-demo-2')">Copy</button>
+        </div>
+        <div class="code-body" id="code-demo-2"><span class="cmd">dx init</span></div>
+      </div>
 
-<span class="comment"># Run a full 10-category environment scan</span>
-<span class="cmd">dx scan</span>
+      <p class="step-desc">Run a full 10-category environment scan</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-demo-3')">Copy</button>
+        </div>
+        <div class="code-body" id="code-demo-3"><span class="cmd">dx scan</span></div>
+      </div>
 
-<span class="comment"># Auto-fix all detected issues interactively</span>
-<span class="cmd">dx fix</span>
+      <p class="step-desc">Auto-fix all detected issues interactively</p>
+      <div class="code-block" style="margin-bottom: 24px;">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-demo-4')">Copy</button>
+        </div>
+        <div class="code-body" id="code-demo-4"><span class="cmd">dx fix</span></div>
+      </div>
 
-<span class="comment"># Simulate a brand-new developer's first run</span>
-<span class="cmd">dx simulate</span></div>
+      <p class="step-desc">Simulate a brand-new developer's first run</p>
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-label">Terminal</span>
+          <button class="copy-btn" onclick="copyCode(this, 'code-demo-5')">Copy</button>
+        </div>
+        <div class="code-body" id="code-demo-5"><span class="cmd">dx simulate</span></div>
       </div>
     </section>
 

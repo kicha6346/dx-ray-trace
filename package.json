@@ -1,10 +1,10 @@
 {
-  "name": "dx-ray",
+  "name": "dx-ray-trace",
   "version": "1.0.0",
   "type": "module",
-  "description": "Reproducibility & Drift Scanner — diagnose and fix 'works on my machine' problems",
+  "description": "Reproducibility & Drift Scanner — eliminate 'works on my machine' forever",
   "bin": {
-    "dx": "./dist/index.js"
+    "dx": "dist/index.js"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -17,9 +17,24 @@
     "cli",
     "devtools",
     "reproducibility",
-    "dx"
+    "dx",
+    "dx-ray",
+    "environment",
+    "diagnostics"
   ],
-  "author": "",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "kicha6346",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicha6346/dx-ray-trace.git"
+  },
+  "homepage": "https://github.com/kicha6346/dx-ray-trace#readme",
+  "bugs": {
+    "url": "https://github.com/kicha6346/dx-ray-trace/issues"
+  },
   "license": "ISC",
   "dependencies": {
     "@inquirer/prompts": "^8.3.2",
