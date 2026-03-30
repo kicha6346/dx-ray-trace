@@ -1,0 +1,88 @@
+﻿
+ ΓûêΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓòù  ΓûêΓûêΓòù      ΓûêΓûêΓûêΓûêΓûêΓûêΓòù  ΓûêΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓòù   ΓûêΓûêΓòù
+ ΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓòÜΓûêΓûêΓòùΓûêΓûêΓòöΓò¥      ΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓòÜΓûêΓûêΓòù ΓûêΓûêΓòöΓò¥
+ ΓûêΓûêΓòæ  ΓûêΓûêΓòæ ΓòÜΓûêΓûêΓûêΓòöΓò¥ ΓûêΓûêΓûêΓûêΓûêΓòùΓûêΓûêΓûêΓûêΓûêΓûêΓòöΓò¥ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓòæ ΓòÜΓûêΓûêΓûêΓûêΓòöΓò¥ 
+ ΓûêΓûêΓòæ  ΓûêΓûêΓòæ ΓûêΓûêΓòöΓûêΓûêΓòù ΓòÜΓòÉΓòÉΓòÉΓòÉΓò¥ΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòæ  ΓòÜΓûêΓûêΓòöΓò¥  
+ ΓûêΓûêΓûêΓûêΓûêΓûêΓòöΓò¥ΓûêΓûêΓòöΓò¥ ΓûêΓûêΓòù      ΓûêΓûêΓòæ  ΓûêΓûêΓòæΓûêΓûêΓòæ  ΓûêΓûêΓòæ   ΓûêΓûêΓòæ   
+ ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥ ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓò¥      ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓò¥ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓò¥   ΓòÜΓòÉΓò¥  
+
+  Reproducibility & Drift Scanner Γöé Scanning: sample-project
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+
+  ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+  Γöé         ≡ƒôè  COMPATIBILITY MATRIX                            Γöé
+  Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöñ
+  Γöé Category              Γöé Status       Γöé Issues Found          Γöé
+  Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöñ
+  Γöé Runtime Versions     Γöé ΓÜá∩╕Å  WARN   Γöé Node version mismatchΓöé
+  Γöé Dependencies         Γöé Γ¥î FAIL   Γöé 1 npm package(s) not Γöé
+  Γöé Env Variables        Γöé Γ¥î FAIL   Γöé .env file missing; 3 Γöé
+  Γöé File Paths           Γöé Γ¥î FAIL   Γöé 1 required file(s) miΓöé
+  Γöé Tooling (OS)         Γöé Γ¥î FAIL   Γöé Docker not running orΓöé
+  Γöé Docker               Γöé ΓÜá∩╕Å  WARN   Γöé 1 Docker image(s) notΓöé
+  ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+
+
+  ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+  Γòæ  ≡ƒºá DX Health: 0/100   [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ] 0%     Γòæ
+  Γòæ  Status: Broken                                    Γòæ
+  ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+
+  ≡ƒÆÑ Biggest Problems:
+     1. Γ¥î  node_modules directory missing          BLOCKING 
+     2. Γ¥î  .env file missing                       BLOCKING 
+     3. Γ¥î  3 env variable(s) missing from .env     BLOCKING 
+
+  ΓÅ▒  Estimated time wasted per new dev: ~1h (~68 min)
+
+  ≡ƒæë Run dx fix to auto-resolve 5/9 issues now.
+
+
+  ≡ƒôï  ISSUE DETAILS
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+  1. Γ¥î   [BLOCKING]  node_modules directory missing
+     The node_modules folder does not exist. Dependencies were never installed.
+     Expected: node_modules present  Got: node_modules missing
+     ≡ƒöº Fix: npm install
+
+  2. Γ¥î   [BLOCKING]  .env file missing
+     .env.example exists but .env has not been created. App will crash on startup.
+     Expected: .env present  Got: .env missing
+     ≡ƒöº Fix: cp .env.example .env
+
+  3. Γ¥î   [BLOCKING]  3 env variable(s) missing from .env
+     Missing: DATABASE_URL, STRIPE_API_KEY, PORT
+     Expected: DATABASE_URL, STRIPE_API_KEY, PORT  Got: Missing: DATABASE_URL, STRIPE_API_KEY, PORT
+     ≡ƒÆí Hint: Add these variables to your .env file with real values
+
+  4. Γ¥î   [BLOCKING]  Docker not running or not installed
+     Docker is required by this project but is not available.
+     Expected: Docker daemon running  Got: Docker unavailable
+     ≡ƒÆí Hint: Install Docker Desktop and ensure the daemon is running
+
+  5. Γ¥î   [HIGH IMPACT]  Node version mismatch
+     Found Node v22.20.0, but project requires v18.x.
+     Expected: 18.x  Got: 22.20.0
+     ≡ƒöº Fix: nvm install 18.x && nvm use 18.x
+
+  6. Γ¥î   [HIGH IMPACT]  1 npm package(s) not installed
+     Missing: chalk
+     Expected: 1 packages installed  Got: 0 found, 1 missing
+     ≡ƒöº Fix: npm install
+
+  7. Γ¥î   [HIGH IMPACT]  1 required file(s) missing
+     Missing: README.md
+     ≡ƒÆí Hint: Ensure all required files are present or check out the correct branch
+
+  8. Γ¥î   [HIGH IMPACT]  1 Docker image(s) not pulled
+     Missing images: redis:alpine
+     Expected: redis:alpine  Got: Missing: redis:alpine
+     ≡ƒöº Fix: docker pull redis:alpine
+
+  9. ΓÜá∩╕Å    [WARNING]  1 hardcoded absolute path(s) detected
+     Found in 1 file(s). Examples: src\index.js: /Users/dave/projects/sample-project/uploads
+     ≡ƒÆí Hint: Replace absolute paths with relative paths or environment variables
+
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ

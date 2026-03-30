@@ -1,0 +1,28 @@
+# dx-spec.yaml
+name: sample-project
+version: 1.0.0
+runtime:
+  node: "18.x" # Intentional mismatch (assuming system is > 18)
+  python: "3.11.x"
+dependencies:
+  npm:
+    - chalk
+env:
+  - key: DATABASE_URL
+    required: true
+  - key: STRIPE_API_KEY
+    required: true
+  - key: PORT
+    required: true
+paths:
+  noHardcodedPaths: true
+  requiredFiles:
+    - .env.example
+    - README.md # Intentional missing file
+tooling:
+  docker: true
+docker:
+  images:
+    - redis:alpine # Intentional missing image (might need pulling)
+ports:
+  - 3000

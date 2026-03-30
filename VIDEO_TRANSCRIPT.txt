@@ -1,0 +1,47 @@
+Hi, we are Team Taurus, and we built DX-Ray Trace.
+
+Every developer has lost hours to the same frustrating problem. You clone a repository, follow the setup instructions, run npm install, and then the app crashes. A secret key is missing. The wrong Node version is running. A port is being blocked. What should take four minutes takes four hours. This is the "it works on my machine" problem, and it kills developer productivity every single day.
+
+DX-Ray Trace is our answer. It is a fully interactive command line tool that scans your project environment, scores its reproducibility, and helps you fix every problem it finds — right from your terminal.
+
+Let us show you how it works.
+
+When you run the dx command, you are greeted with a full-screen interactive menu built for a premium developer experience. It has three sections — Diagnostics, Collaboration, and Setup — with arrow-key navigation and smooth screen transitions. This is a real terminal application, not a basic script.
+
+We select Scan Environment.
+
+DX-Ray Trace immediately runs ten simultaneous scanners across your entire project. It checks your runtime versions, your npm dependencies, your environment variables, your source code for hardcoded secrets and localhost URLs, your Docker images, your open ports, your git hygiene, your project structure, and the freshness of your documentation.
+
+The results come back as a Compatibility Matrix — a detailed table showing every category either passing, failing, or flagged as a warning. Beneath it, your project receives a DX Health Score out of one hundred. A score below fifty means a new developer will definitely hit blockers on their first day.
+
+Now look at the issue viewer. Instead of printing a wall of text, DX-Ray Trace enters an interactive drill-down list. You can see every issue with its severity badge right there — blocking, high impact, or warning.
+
+We select the first issue: a missing Stripe API key in the environment.
+
+The tool immediately shows us exactly what is wrong and launches the fix wizard without leaving this screen. It asks us for the real value, we type it in, and it injects it securely into our dot-env file. When we return to the issue list, that problem is gone. The list has shrunk. We fixed it inline, without running a single extra command.
+
+This is the core design principle of DX-Ray Trace. You do not switch between a report and a fixer. You read the problem and fix it in the same place, in the same moment.
+
+We select the next issue: a missing dot-gitignore file that is leaving node_modules and dot-env exposed to git commits. One keypress, and DX-Ray Trace generates a dot-gitignore with secure defaults. Fixed.
+
+At the end of the session, DX-Ray Trace tells us exactly how much time we just saved. "DX-Ray Trace just saved your team twenty minutes of debugging context." This is real, measurable productivity recovery.
+
+Now let us show you the Simulate Fresh Install feature. This is unique to DX-Ray Trace.
+
+We select Simulate Fresh Install. The tool creates a sandboxed temporary directory, copies our project files without node_modules, runs a completely fresh npm install, checks all environment variables, validates the runtime, and runs a full compatibility scan. Then it gives us an Onboarding Difficulty Rating.
+
+If the rating is green and says Easy, a new developer can clone this project and be running in under five minutes.
+
+If it is red and says Very Hard, your project is currently unreproducible on a fresh machine. You will know this before your new hire finds out on their first day.
+
+For teams, we built Peer Environment Comparison. Any developer runs dx export to capture their full environment as a portable YAML snapshot — runtime versions, dependency state, environment variable presence. They share that file. A teammate runs dx compare against it, and DX-Ray Trace highlights every single difference between the two machines instantly.
+
+Cross-machine debugging that used to take hours now takes seconds.
+
+Finally, dx init auto-generates your dx-spec.yaml specification file by reading your current environment. This spec becomes the single source of truth that every future scan runs against. Set it once, and DX-Ray Trace will enforce it for every developer on your team, forever.
+
+DX-Ray Trace is available on npm. Run npm install dash g dx-ray-trace and the dx command is available globally on your machine. Point it at any project and you have a full environment health report in under thirty seconds.
+
+We are Team Taurus. DX-Ray Trace makes every developer environment reproducible, every onboarding experience fast, and every codebase secure. The "it works on my machine" era is over.
+
+Thank you.
