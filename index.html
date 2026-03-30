@@ -459,6 +459,51 @@
       to   { opacity: 1; transform: translateY(0); }
     }
 
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* ── Marquee Banner ── */
+    .marquee-wrapper {
+      position: relative;
+      background: linear-gradient(90deg, rgba(255, 77, 109, 0.15), rgba(255, 214, 10, 0.15));
+      border-bottom: 1px solid rgba(255, 214, 10, 0.3);
+      padding: 12px 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      z-index: 50;
+    }
+    
+    .marquee-content {
+      display: flex;
+      white-space: nowrap;
+      animation: marquee 30s linear infinite;
+    }
+    
+    .marquee-content:hover {
+      animation-play-state: paused;
+    }
+    
+    .marquee-item {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--yellow);
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      letter-spacing: 0.02em;
+    }
+    
+    .marquee-item span {
+      color: var(--text);
+      font-weight: 500;
+      opacity: 0.9;
+    }
+
+
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(16px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -474,6 +519,17 @@
   </style>
 </head>
 <body>
+  <div class="marquee-wrapper">
+    <div class="marquee-content">
+      <div class="marquee-item">⚠️ JUDGES — Read Before Testing: <span>Install and test it on your own real-world project to see the true potential!</span></div>
+      <div class="marquee-item">⚠️ JUDGES — Read Before Testing: <span>Install and test it on your own real-world project to see the true potential!</span></div>
+      <div class="marquee-item">⚠️ JUDGES — Read Before Testing: <span>Install and test it on your own real-world project to see the true potential!</span></div>
+      <div class="marquee-item">⚠️ JUDGES — Read Before Testing: <span>Install and test it on your own real-world project to see the true potential!</span></div>
+      <div class="marquee-item">⚠️ JUDGES — Read Before Testing: <span>Install and test it on your own real-world project to see the true potential!</span></div>
+      <div class="marquee-item">⚠️ JUDGES — Read Before Testing: <span>Install and test it on your own real-world project to see the true potential!</span></div>
+    </div>
+  </div>
+  
   <div class="grid-bg"></div>
 
   <!-- ── Hero ── -->
